@@ -99,32 +99,32 @@ app.post('/api/test/register', async (req, res) => {
     }
 });
 
-// app.get('/api/test/products', async (req, res) => {
-//     const { companyName, categoryName, count, minPrice, maxPrice } = req.query;
+app.get('/api/test/products', async (req, res) => {
+    const { companyName, categoryName, count, minPrice, maxPrice } = req.query;
 
-//     try {
-//         const response = await axios.get(`http://20.244.56.144/test/companies/${companyName}/categories/${categoryName}/products`, {
-//             params: {
-//                 count: count,
-//                 minPrice: minPrice,
-//                 maxPrice: maxPrice
-//             }
-//         });
+    try {
+        const response = await axios.get(`http://20.244.56.144/test/companies/${companyName}/categories/${categoryName}/products`, {
+            params: {
+                count: count,
+                minPrice: minPrice,
+                maxPrice: maxPrice
+            }
+        });
 
-//         const products = response.data.map(product => ({
-//             productName: product.name,
-//             price: product.price,
-//             rating: product.rating,
-//             discount: product.discount,
-//             availability: product.availability
-//         }));
+        const products = response.data.map(product => ({
+            productName: product.name,
+            price: product.price,
+            rating: product.rating,
+            discount: product.discount,
+            availability: product.availability
+        }));
 
-//         res.status(200).json(products);
-//     } catch (error) {
-//         console.error('Error fetching products:', error.response.data);
-//         res.status(500).json({ error: 'Failed to fetch products from the test server' });
-//     }
-// });
+        res.status(200).json(products);
+    } catch (error) {
+        console.error('Error fetching products:', error.response.data);
+        res.status(500).json({ error: 'Failed to fetch products from the test server' });
+    }
+});
 
 
 app.listen(port, () => console.log(`Listening on port: ${port}`));
