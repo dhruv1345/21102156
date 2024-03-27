@@ -99,12 +99,12 @@ app.post('/api/test/register', async (req, res) => {
 });
 
 app.get('/api/test/products', async (req, res) => {
-    const { companyName, categoryName, count, minPrice, maxPrice } = req.query;
+    const { companyName, categoryName, top, minPrice, maxPrice } = req.query;
 
     try {
         const response = await axios.get(`http://20.244.56.144/test/companies/${companyName}/categories/${categoryName}/products`, {
             params: {
-                count: count,
+                top: top,
                 minPrice: minPrice,
                 maxPrice: maxPrice
             }
