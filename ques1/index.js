@@ -62,7 +62,6 @@ app.post('/api/test/register', async (req, res) => {
         };
         const authToken = await getAuthToken(authTokenDetails);
 
-        // Construct the response object
         const response = {
             companyName: responseFromTestServer.companyName,
             clientID: responseFromTestServer.clientID,
@@ -73,7 +72,7 @@ app.post('/api/test/register', async (req, res) => {
             accessToken: authToken
         };
 
-        // Save the response to a separate JSON file
+
         const responseFilePath = path.join(__dirname, 'registration_responses.json');
         fs.readFile(responseFilePath, 'utf8', (err, data) => {
             let responses = [];
