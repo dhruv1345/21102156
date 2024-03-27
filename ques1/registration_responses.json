@@ -1,0 +1,20 @@
+[
+  {
+    "companyName": "CodeCharm",
+    "clientID": "37bb493c-73d3-47ea-8675-21f66ef9b735",
+    "clientSecret": "HVIQBVbqmTGEmaED",
+    "ownerName": "Dhruv",
+    "ownerEmail": "21102156@mail.jiit.ac.in",
+    "rollNo": "21102156"
+  },
+  
+  {
+    "companyName": "JioMart",
+    "clientID": "2522d2fc-7e79-4d01-a16d-afe280837d64",
+    "clientSecret": "KyHVflIpZnDRzbNm",
+    "ownerName": "Dhruv",
+    "ownerEmail": "Dhruvguptaalgo@gmail.com",
+    "rollNo": "21102156",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzExNTM0MzExLCJpYXQiOjE3MTE1MzQwMTEsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjI1MjJkMmZjLTdlNzktNGQwMS1hMTZkLWFmZTI4MDgzN2Q2NCIsInN1YiI6IkRocnV2Z3VwdGFhbGdvQGdtYWlsLmNvbSJ9LCJjb21wYW55TmFtZSI6Ikppb01hcnQiLCJjbGllbnRJRCI6IjI1MjJkMmZjLTdlNzktNGQwMS1hMTZkLWFmZTI4MDgzN2Q2NCIsImNsaWVudFNlY3JldCI6Ikt5SFZmbElwWm5EUnpiTm0iLCJvd25lck5hbWUiOiJEaHJ1diIsIm93bmVyRW1haWwiOiJEaHJ1dmd1cHRhYWxnb0BnbWFpbC5jb20iLCJyb2xsTm8iOiIyMTEwMjE1NiJ9.szJAvdDktykeAnWzCMVfb-BC3yib_rFUJmn3Zjd1dyU"
+  }
+]
