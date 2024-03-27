@@ -7,7 +7,6 @@
     "ownerEmail": "21102156@mail.jiit.ac.in",
     "rollNo": "21102156"
   },
-  
   {
     "companyName": "JioMart",
     "clientID": "2522d2fc-7e79-4d01-a16d-afe280837d64",
@@ -16,5 +15,14 @@
     "ownerEmail": "Dhruvguptaalgo@gmail.com",
     "rollNo": "21102156",
     "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzExNTM0MzExLCJpYXQiOjE3MTE1MzQwMTEsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjI1MjJkMmZjLTdlNzktNGQwMS1hMTZkLWFmZTI4MDgzN2Q2NCIsInN1YiI6IkRocnV2Z3VwdGFhbGdvQGdtYWlsLmNvbSJ9LCJjb21wYW55TmFtZSI6Ikppb01hcnQiLCJjbGllbnRJRCI6IjI1MjJkMmZjLTdlNzktNGQwMS1hMTZkLWFmZTI4MDgzN2Q2NCIsImNsaWVudFNlY3JldCI6Ikt5SFZmbElwWm5EUnpiTm0iLCJvd25lck5hbWUiOiJEaHJ1diIsIm93bmVyRW1haWwiOiJEaHJ1dmd1cHRhYWxnb0BnbWFpbC5jb20iLCJyb2xsTm8iOiIyMTEwMjE1NiJ9.szJAvdDktykeAnWzCMVfb-BC3yib_rFUJmn3Zjd1dyU"
+  },
+  {
+    "companyName": "KeoMart",
+    "clientID": "ed4e9d40-33d1-4e28-b9f6-d5102d6181a3",
+    "clientSecret": "yCxgVRLLPLaknqUG",
+    "ownerName": "Dhruv",
+    "ownerEmail": "guptadhruv1345@gmail.com",
+    "rollNo": "21102156",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzExNTM1NjI4LCJpYXQiOjE3MTE1MzUzMjgsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImVkNGU5ZDQwLTMzZDEtNGUyOC1iOWY2LWQ1MTAyZDYxODFhMyIsInN1YiI6Imd1cHRhZGhydXYxMzQ1QGdtYWlsLmNvbSJ9LCJjb21wYW55TmFtZSI6Iktlb01hcnQiLCJjbGllbnRJRCI6ImVkNGU5ZDQwLTMzZDEtNGUyOC1iOWY2LWQ1MTAyZDYxODFhMyIsImNsaWVudFNlY3JldCI6InlDeGdWUkxMUExha25xVUciLCJvd25lck5hbWUiOiJEaHJ1diIsIm93bmVyRW1haWwiOiJndXB0YWRocnV2MTM0NUBnbWFpbC5jb20iLCJyb2xsTm8iOiIyMTEwMjE1NiJ9.UtCj2venqqPo5ytBkTj7m6U7j1LrMl-H2aUg8mHLyE8"
   }
 ]
